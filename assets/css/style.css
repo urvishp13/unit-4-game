@@ -1,3 +1,21 @@
+body {
+  width: 960px;
+  background-image: url(../../bananas/bananas.png);
+}
+
+h1 {
+  padding: 20px 2px 20px 2px;
+  background: coral;
+  color: white;
+  float: left;
+}
+
+.instructions {
+  clear: both;
+  background: yellowgreen;
+  height: 100px;
+}
+
 .image {
   width: 200px;
   height: 200px;
