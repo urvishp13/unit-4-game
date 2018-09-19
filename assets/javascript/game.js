@@ -26,6 +26,10 @@ function checkScore() {
     $("#myGuess").text(total);
     targetNumber = Math.floor(Math.random() * 120) + 19;
     $("#target-number").text(targetNumber);
+    image1 = Math.floor(Math.random() * 12) + 1;
+    image2 = Math.floor(Math.random() * 12) + 1;
+    image3 = Math.floor(Math.random() * 12) + 1;
+    image4 = Math.floor(Math.random() * 12) + 1;
   } else if (total > targetNumber) {
     losses++;
     console.log(losses);
@@ -34,6 +38,10 @@ function checkScore() {
     $("#myGuess").text(total);
     targetNumber = Math.floor(Math.random() * 120) + 19;
     $("#target-number").text(targetNumber);
+    image1 = Math.floor(Math.random() * 12) + 1;
+    image2 = Math.floor(Math.random() * 12) + 1;
+    image3 = Math.floor(Math.random() * 12) + 1;
+    image4 = Math.floor(Math.random() * 12) + 1;
   }
 }
 
