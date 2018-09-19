@@ -14,7 +14,6 @@ var targetNumber = Math.floor(Math.random() * 120) + 19;
 $("#target-number").text(targetNumber);
 $("#myGuess").text(total);
 
-// if "total" is less than "targetNumber," keep going on adding to total
 // if "total" equals "targetNumber," increment wins by one
 // if "total" is greater than "targetNumber," increment losses by one
 

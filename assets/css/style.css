@@ -16,7 +16,35 @@ h1 {
   height: 100px;
 }
 
+div {
+  /* float: right; */
+  padding: 20px;
+  background: yellow;
+  width: 150px;
+}
+
+h4 {
+  background: teal;
+  color: white;
+  width: 200px;
+  padding: 5px;
+}
+
+.target-number {
+  /* float: left; */
+  padding: 20px;
+  background: green;
+  width: 300px;
+}
+
 .image {
   width: 200px;
   height: 200px;
+}
+
+#myGuess {
+  background: teal;
+  color: white;
+  width: 150px;
+  padding: 20px;
 }
